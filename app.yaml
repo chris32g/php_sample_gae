@@ -1,0 +1,16 @@
+runtime: php
+env: flex
+
+runtime_config:
+ document_root: web
+
+handlers:
+- url: /api/v1/authenticate
+  static_files: /api/v1/authenticate/index.html
+  upload: /api/v1/authenticate/index.php
+
+- url: /api/v1/userprofile
+  static_files: /api/v1/userprofile/index.html
+  upload: /api/v1/userprofile/index.php
+
+
