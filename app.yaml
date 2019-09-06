@@ -6,11 +6,11 @@ runtime_config:
 
 handlers:
 - url: /api/v1/authenticate
-  static_files: /api/v1/authenticate/index.html
+  static_files: /api/v1/authenticate/index.php
   upload: /api/v1/authenticate/index.php
 
 - url: /api/v1/userprofile
-  static_files: /api/v1/userprofile/index.html
+  static_files: /api/v1/userprofile/index.php
   upload: /api/v1/userprofile/index.php
 
 
